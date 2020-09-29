@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Firdose webiste</title>
+</head>
+
+<body>
+    <table cellspacing="50">
+        <tr>
+            <td><img src="firdose linkedin.png" alt="Firdose Shaik"></td>
+            <td>
+                <h1>SHAIK FIRDOSE</h1>
+                <p><em>This is <strong>Firdose</strong> from <strong></em><a href="https://www.google.com"
+                        target="_blank">Google.</a></strong></p>
+                <p><em>I love<strong> drinks</strong> alot.Moreover creating newthings</em></p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <h3>EDUCATION</h3>
+    <p>School :- NHHS</p>
+    <p>Intermediate :- KRISHNAVENI JUNIOR COLLEGE</p>
+    <P>College :- SRM UNIVERSITY</P>
+    <hr>
+    <h3>QUALIFICATION</h3>
+    <ul>
+        <li>The Complete Web Devolopment Bootcamp</li>
+        <li>The Complete ios Devolopment Bootcamp</li>
+        <ul>
+            <li>The Website For Web Devolopment</li>
+            <li>The Website For ios Devolopment</li>
+        </ul>
+    </ul>
+    <hr>
+    <h3>HOBBIES</h3>
+    <ol type="1">
+        <li>Eating food</li>
+        <li>Learning new things</li>
+        <li>Creating new things</li>
+        <ul type="disc">
+            <li>Watching Youtube <a href="https://www.youtube.com" target="_blank"><strong><em>Youtube</em></strong></a>
+            </li>
+            <ol type="a">
+                <li>Movies</li>
+                <li>coding videos <a href="https://www.codewithharry.com"
+                        target="_blank"><em><strong>Codewithharry</strong></em></a></li>
+                <li>cricket videos</li>
+            </ol>
+            <ul type="disc">
+                <li>Playing Cricket</li>
+                <ol type="a">
+                    <li>Batting</li>
+                    <li>Bowling</li>
+                    <li>Fielding</li>
+                </ol>
+            </ul>
+        </ul>
+    </ol>
+    <hr>
+    <h3>Work Experience</h3>
+    <!-- 2009 trable -->
+    <left>
+        <table cellspacing="10">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Work Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2018-2022 </td>
+                    <td>Software Devolper</td>
+                </tr>
+                <tr>
+                    <td>2016-2018</td>
+                    <td>Ethical Hacker</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </left>
+    <hr>
+    <h3>
+        <p><strong>Table with colgroup</strong></p>
+    </h3>
+    <left>
+
+        <table border="3">
+            <!-- <colgroup span="4"></colgroup> -->
+            <tr>
+                <th>Countries</th>
+                <th>Capitals</th>
+                <th>Population</th>
+                <th>Language</th>
+                <th>income</th>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>Washington, D.C.</td>
+                <td>309 million</td>
+                <td>English</td>
+                <td>33333</td>
+            </tr>
+            <tr>
+                <td>Sweden</td>
+                <td>Stockholm</td>
+                <td>9 million</td>
+                <td>Swedish</td>
+                <td>55555</td>
+            </tr>
+        </table>
+    </left>
+    <hr>
+    <h3>SKILLS</h3>
+    <table cellspacing="20">
+        <tr>
+            <td>ios devoloper</td>
+            <td>💛💛💛💛💛</td>
+        </tr>
+        <tr>
+            <td>Web devoloper</td>
+            <td>💛💛💛💛</td>
+        </tr>
+        <tr>
+            <td>Android devoloper</td>
+            <td>💛💛💛💛💛</td>
+        </tr>
+        <tr>
+            <td>Software devoloper</td>
+            <td>💛💛</td>
+        </tr>
+
+        <tr>
+            <td>Data devoloper</td>
+            <td>💛💛💛</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="" method="" enctype="">
+        <h2>Contact me form :</h2>
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="number"> Mobile Number :</label>
+            <input type="number" name="mynumber" id="number">
+        </div>
+        <br>
+        <div>
+            <label for="age">age :</label>
+            <input type="number" name="myage" id="age">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date :</label>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <div>
+            <!-- <label for="gender">Gender :</label> -->
+            Gender : Male<input type="radio" name="mygender" id="gender">Female <input type="radio" name="mygender"
+                id="gender">Other <input type="radio" name="mygender" id="gender">
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Are you eligible ? </label>
+            <input type="checkbox" name="myeligibility" id="eligible">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email :</label>
+            <input type="mail" name="mymail" id="mail">
+        </div>
+        <br>
+        <div>
+            Write about yourself:<br>
+
+            </yourself:br><textarea name="myname" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="browser">Choose a browser :</label>
+        <input list="browsers" name="mybrowser" id="browser" />
+        <datalist id="browsers">
+            <option value="chrome">
+            <option value="firefox">
+            <option value="opera">
+            <option value="microsoft edge">
+            <option value="google">
+        </datalist>
+        <br>
+        <div>
+            <table cellspacing="30">
+                <tr>
+                    <td> <strong><input type="submit" name="Submit"></strong></td>
+                    <td> <strong><input type="reset" name="Reset Now"></strong></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+
+</body>
+
+</html>
